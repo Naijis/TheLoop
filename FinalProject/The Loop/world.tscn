@@ -1,0 +1,215 @@
+[gd_scene load_steps=5 format=3 uid="uid://b1h5wgml6h05g"]
+
+[ext_resource type="PackedScene" uid="uid://de3f5xkopa3s0" path="res://Player/Player.tscn" id="1_75n1f"]
+[ext_resource type="Texture2D" uid="uid://bsynmi78iteac" path="res://Backgrounds/1000_F_489114227_4piH63TD1SsMlOgwH8kr88LirtrueZsc.jpg" id="2_fvxlx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jkyrw"]
+size = Vector2(1152, 155.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_owlij"]
+size = Vector2(232, 797.75)
+
+[node name="World" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(576, 720)
+shape = SubResource("RectangleShape2D_jkyrw")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-120, 401.125)
+shape = SubResource("RectangleShape2D_owlij")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1272, 400)
+shape = SubResource("RectangleShape2D_owlij")
+
+[node name="Panel" type="Panel" parent="."]
+offset_top = 640.0
+offset_right = 1157.0
+offset_bottom = 701.0
+scale = Vector2(0.995581, 2.64386)
+
+[node name="Player" parent="." instance=ExtResource("1_75n1f")]
+position = Vector2(576, 320)
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(96, 63.75)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc2" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(288, 64)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc17" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(864, 64.25)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc18" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(1056, 64.5)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc19" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(864, 192.25)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc20" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(1056, 192.5)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc21" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(864, 320.25)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc22" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(1056, 320.5)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc23" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(864, 448.25)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc24" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(1056, 448.5)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc3" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(96, 192.25)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc4" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(288, 192.5)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc5" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(480, 64.25)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc6" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(672, 64.5)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc7" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(480, 192.75)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc8" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(672, 193)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc9" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(96, 320.25)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc10" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(288, 320.5)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc11" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(96, 448.75)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc12" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(288, 449)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc13" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(480, 320)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc14" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(672, 320)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc15" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(480, 448)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc16" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(672, 448)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc25" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(864, 576.5)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc26" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(1056, 576.75)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc27" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(96, 577)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc28" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(288, 577.25)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc29" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(480, 576.25)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")
+
+[node name="1000F4891142274PiH63td1SsMlOgwH8Kr88LirtrueZsc30" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(672, 576.25)
+scale = Vector2(0.192, 0.258551)
+texture = ExtResource("2_fvxlx")

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://76urn7jgs04p"]
+
+[ext_resource type="Texture2D" uid="uid://0jpuiwfxeyl0" path="res://Ouroboros/b5nrbK.png" id="1_8ksek"]
+[ext_resource type="Script" path="res://CaveBG.gd" id="1_cee65"]
+
+[node name="CaveBG" type="ParallaxBackground"]
+script = ExtResource("1_cee65")
+
+[node name="CaveBackground" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="B5NrbK" type="Sprite2D" parent="CaveBackground"]
+position = Vector2(584, 340)
+scale = Vector2(0.608333, 0.62963)
+texture = ExtResource("1_8ksek")
